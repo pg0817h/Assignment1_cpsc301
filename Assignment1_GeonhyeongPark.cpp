@@ -133,15 +133,7 @@ int main() {
 	Deposit(Cname, P, deposit);
 	cout << endl;
 	Display(P, count);
-	/*
-	for (int i = 0; i < 6; i++) {
-	if (Cname == P[i].Name)
-	total = P[i].Balance + deposit;
-
-	}
-	cout << "Now your new balance is " << total;
 	
-	*/
 	NewCopy("data.txt", P, count);
 	input.close();
 
